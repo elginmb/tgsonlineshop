@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixue</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-4 fixed-top">
+    <div class="container">
+    <a class="navbar-brand d-flex justify-content-between align-items-center order-lg-0" href="index.html">
+        <img src="image/bxl-gmail.svg" alt="site icon">
+        <span class="text-uppercase fw-lighter ms-2">Mixue</span>
+    </a>
+
+    <div class="order-lg-2 nav-btns">
+            <button type="button" class="btn position-relative">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAARJJREFUSEvd1M8xREEQBvDfRoAMiAARCAER4MqBEIiAC1dEgAyEQARkgAioT3lbr3hvZ97WbtWWPs709Penu2dkzjGac33/C+BzhnY9YTP12hbNEuADy78BGgEXOMYt9geqOsF5+21Xk1fxgnesDAR4xBYOcNOnIOfxcL2dWAEUS95+8kIsBHvHtJH6gJ2K4klJ3h2esdG86duDTjYFoFiyhzOclgByf4/tSvbttIxnLP6OSZucCboeAJDRzASO2ZcAcp9GLWENrwPAxqmlv6jxNXbtzgMgOxE/o6Im/hAuKWjGL2ObBSrFVAClohPvaxSkwCUOcYWjVsW+8+omN4ntn7bvB+4kuzAKpu5DrYLFBfgCoYYtGZGfX0sAAAAASUVORK5CYII="/>
+        <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">5 </span>
+        </button>
+            <button type="button" class="btn position-relative">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAPFJREFUSEvFlW0RwjAQRF8dIAEHgAKQgANAAVpQADhAAjgAB0jAAcx2Qidt03y0DeRX0pvuy17ukoLMo8isz98Aa2ADzI3DJ3AALmat+B6YmvUdOFvxKjFNBxPgCEjANa7m46ojrg3sgNc33gRoJ7OB5yKNhQuwNbsfqF/+LhcnTWwHsr8cQx24AWUabcB7JPFadn4KyJ6i7Ies3I1Rpg+rQVtXhRpNqerbCxJX9XQ2mlz0hbTEm2VqV2kqxCnuA6Q46RQPAWIgXvEYgA8SFI8FuCBR4ikAG6J5rRR9d1jqk6nq0qjqPHRBpgJCeq14dsAHaAYwGXy+lBAAAAAASUVORK5CYII="/>
+        <span class="position-absolute top-0 start-100 translate-middle badge bg-primary">2</span>
+        </button>
+    </div>
+    <button class="navbar-toggler border-0" type="button" data-bs-toggle ="collapse" data-bs-target="#navMenu">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse order-lg-1" id="navMenu">
+    <ul class="navbar-nav mx-auto text-center">
+        <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="index.html">Home</a>
+            <span class="sr-only">(current)</span>
+        </li>
+        <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="ice.html">Ice Cream</a>
+        </li>
+        <li class="nav-item px-2 py-2">
+            <a class="nav-link text-uppercase text-dark" href="milk.html">Milk Tea</a>
+        </li>
+        <li class="nav-item px-2 py-2 border-0">
+            <a class="nav-link text-uppercase text-dark" href="fruit.html">Fruit Tea</a>
+        </li>
+    </ul>
+    </div>
+    </div>
+
+  </nav>
+  <!-- nvbrberes -->
+  <!-- header -->
+  <header id = "header" class = "vh-100 carousel slide" data-bs-ride = "carousel" style = "padding-top: 104px;">
+    <div class = "container h-100 d-flex align-items-center carousel-inner">
+        <div class = "text-center carousel-item active">
+            <h2 class = "text-capitalize text-white">best Ice Cream</h2>
+            <h1 class = "text-uppercase py-2 fw-bold text-white">New Menu</h1>
+            <a href = "#" class = "btn mt-3 text-uppercase">Buy Now</a>
+        </div>
+        <div class = "text-center carousel-item">
+            <h2 class = "text-capitalize text-white">best price & offer</h2>
+            <h1 class = "text-uppercase py-2 fw-bold text-white">new Item</h1>
+            <a href = "#" class = "btn mt-3 text-uppercase">buy now</a>
+        </div>
+    </div>
+
+    <button class = "carousel-control-prev" type = "button" data-bs-target="#header" data-bs-slide = "prev">
+        <span class = "carousel-control-prev-icon"></span>
+    </button>
+    <button class = "carousel-control-next" type = "button" data-bs-target="#header" data-bs-slide = "next">
+        <span class = "carousel-control-next-icon"></span>
+    </button>
+</header>
+<!-- end of header -->
+
+<!-- collection -->
+<section class = "py-5">
+    <div class = "container">
+        <div class = "title text-center">
+            <h2 class = "position-relative d-inline-block">New Products</h2>
+        </div>
+
+            <div class ="ice-list mt-4 row gx-0 gy-3">
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <div class = "ice-img position-relative overflow-hidden">
+                        <img src = "image/WhatsApp Image 2023-02-11 at 13.12.45.jpeg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">New</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class="mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+
+                        </div>
+                        <p class = "text-capitalize my-1">Mango Sundae</p>
+                        <span class = "fw-bold">Rp. 18.000</span>
+                    </div>
+                </div>
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class = "ice-img position-relative overflow-hidden">
+                        <img src = "image/WhatsApp Image 2023-02-11 at 13.13.55.jpeg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">New</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class="mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+
+                        </div>
+                        <p class = "text-capitalize my-1">Lucky Sundae Strawbery</p>
+                        <span class = "fw-bold">Rp. 18.000</span>
+                    </div>
+                </div>
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 feat">
+                    <div class = "ice-img position-relative overflow-hidden">
+                        <img src = "image/WhatsApp Image 2023-02-11 at 13.14.25.jpeg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">New</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class="mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+
+                        </div>
+                        <p class = "text-capitalize my-1">Boba Shake</p>
+                        <span class = "fw-bold">Rp. 18.000</span>
+                    </div>
+                </div>
+                <div class = "col-md-6 col-lg-4 col-xl-3 p-2 best">
+                    <div class = "ice-img position-relative overflow-hidden">
+                        <img src = "image/WhatsApp Image 2023-02-11 at 13.16.41.jpeg" class = "w-100">
+                        <span class = "position-absolute bg-primary text-white d-flex align-items-center justify-content-center">New</span>
+                    </div>
+                    <div class = "text-center">
+                        <div class="mt-3">
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+                            <span class="text-primary"><i class="fas fa-star"></i></span>
+
+                        </div>
+                        <p class = "text-capitalize my-1">Ice cream Earl Grey Tea</p>
+                        <span class = "fw-bold">Rp. 15.000</span>
+                    </div>
+                </div>
+    </div>
+    </div>
+    </section>
+    <section id = "subs" class = "py-5">
+        <div class = "container">
+            <div class = "d-flex flex-column align-items-center justify-content-center">
+                <div class = "title text-center pt-3 pb-5">
+                    <h2 class = "position-relative d-inline-block ms-4">Subscription</h2>
+                </div>
+    
+                <p class = "text-center text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus rem officia accusantium maiores quisquam dolorum?</p>
+                <div class = "input-group mb-3 mt-3">
+                    <input type = "text" class = "form-control" placeholder="Enter Your Email ...">
+                    <button class = "btn btn-primary" type = "submit">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer -->
+    <footer class = "bg-dark py-5">
+        <div class = "container">
+            <div class = "row text-white g-4">
+                <div class = "col-md-6 col-lg-3">
+                    <a class = "text-uppercase text-decoration-none brand text-white" href = "index.html">Mixue</a>
+                    <p class = "text-white text-muted mt-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum mollitia quisquam veniam odit cupiditate, ullam aut voluptas velit dolor ipsam?</p>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light">Links</h5>
+                    <ul class = "list-unstyled">
+                        <li class = "my-3">
+                            <a href = "index.html" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Home
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "ice.html" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> ice cream
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "milk.html" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Milk Tea
+                            </a>
+                        </li>
+                        <li class = "my-3">
+                            <a href = "fruit.html" class = "text-white text-decoration-none text-muted">
+                                <i class = "fas fa-chevron-right me-1"></i> Fruit Tea
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Contact Us</h5>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                           Jln Maulana Yusuf No 35
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-envelope"></i>
+                        </span>
+                        <span class = "fw-light">
+                           elginbarru@gmail.com
+                        </span>
+                    </div>
+                    <div class = "d-flex justify-content-start align-items-start my-2 text-muted">
+                        <span class = "me-3">
+                            <i class = "fas fa-phone-alt"></i>
+                        </span>
+                        <span class = "fw-light">
+                            +6285900054498
+                        </span>
+                    </div>
+                </div>
+
+                <div class = "col-md-6 col-lg-3">
+                    <h5 class = "fw-light mb-3">Follow Us</h5>
+                    <div>
+                        <ul class = "list-unstyled d-flex">
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href = "#" class = "text-white text-decoration-none text-muted fs-4 me-4">
+                                    <i class = "fab fa-pinterest"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
